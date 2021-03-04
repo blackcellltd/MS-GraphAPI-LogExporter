@@ -1,0 +1,26 @@
+{
+    "Access Intervals": 120,
+    "Access Duration": 600,
+    "Access Delay": 1200,
+    "Recovery Duration": 1200,
+    "History Access Duration": 1200,
+    "History Duration": 36000,
+    "Log Path": "log/",
+    "Log Level": 3,
+    "Client Id": "",
+    "Client Secret": "",
+    "Tenant Id": "",
+    "Api Base Url": "https://main.iam.ad.ext.azure.com/api/MsGraph/v1.0/",
+    "Endpoints": [
+        {
+            "Name": "SignIns",
+            "Endpoint path": "auditLogs/signIns",
+            "Timefield name": "createdDateTime"
+        },
+        {
+            "Name": "DirectoryAudits",
+            "Endpoint path": "auditLogs/directoryAudits",
+            "Timefield name": "activityDateTime"
+        }
+    ]
+}
