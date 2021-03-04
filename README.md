@@ -1,6 +1,6 @@
 # Microsoft O365 Security Logs export
 
-This tool exports data from dynamically configured Microsoft GraphQL endpoints, processes and stores them. Mainly focuses on retrieving security-related logs and events to make it possible to integrate Microsoft solutions into IBM Qradar in a Unix based environment.
+This tool exports data from dynamically configured Microsoft GraphQL endpoints, processes and stores them. Mainly focuses on retrieving security-related logs and events to make it possible to integrate Microsoft solutions into IBM Qradar or any SIEM in a Unix based environment.
 
 ---
 
