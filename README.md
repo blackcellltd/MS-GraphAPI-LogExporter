@@ -1,6 +1,6 @@
 # Microsoft O365 Security Logs export
 
-This tool exports data from dynamically configured Microsoft GraphQL endpoints, processes and stores them. Mainly focuses on retrieving security-related logs and events to make it possible to integrate Microsoft solutions into IBM Qradar or any SIEM in a Unix based environment.
+This tool exports data from dynamically configured Microsoft Graph API endpoints, processes and stores them to a local file. Mainly focuses on retrieving security-related logs and events to make it possible to integrate Microsoft solutions into IBM Qradar or any SIEM in a Unix based environment.
 
 ---
 
@@ -76,4 +76,8 @@ You can validate a config file with the `--validate-config [file name]` command-
 
 ## Usage
 
-After the installation, modify the configuration file to include your credentials and add the endpoints you would like to access. Start the compiled executable file and let it run.
+After the installation, modify the configuration file to include your credentials and add the endpoints you would like to access. Start the compiled executable file and let it run or configure to run as a service.
+
+## Advice
+
+Use logrotate to compress or purge the raw log files, e.g.: weekly. 
